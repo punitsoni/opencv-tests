@@ -1,0 +1,3 @@
+- Make generic frame-processing framework
+- This framework should take one frame at a time and give object matadata in form of a callback
+-
