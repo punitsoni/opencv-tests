@@ -121,7 +121,7 @@ def posCb(pos, grad):
   prevTime = curTime
   (x, y) = pos;
   (dx, dy) = grad
-  print "pos, grad =  (%d, %d), (%d, %d), v = (%f, %f)" \
+  print "pos, grad =  (%d, %d), (%d, %d), v = (%.2f, %.2f)" \
      % (x, y, dx, dy, dx/dt, dy/dt)
 
 if __name__ == "__main__":

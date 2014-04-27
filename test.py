@@ -18,6 +18,6 @@ c1 = cv2.cvtColor(c, cv2.COLOR_HSV2BGR)
 
 print tuple(c1[0, 0].tolist())
 
-cv2.imshow("test", r)
-print "press any key to continue"
-cv2.waitKey(0)
+#cv2.imshow("test", r)
+#print "press any key to continue"
+#cv2.waitKey(0)
